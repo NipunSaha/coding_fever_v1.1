@@ -1,0 +1,218 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    background-color: #474747;
+}
+
+header {
+    background-color: #000;
+    text-align: center;
+    padding: 15px;
+}
+
+header h1 {
+    margin: 0;
+    color : yellow;
+}
+
+h2 {
+    color : #fff;
+}
+
+p{
+    color : #fff;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+    padding-top: 10px;
+}
+
+nav a {
+    margin : auto;
+    text-decoration: none;
+    color: white;
+    background-color: #000;
+}
+
+main {
+    padding: 20px;
+}
+
+.section {
+    border: 1px solid black;
+    padding: 20px;
+    font-size: larger;
+    background-color: black;
+    border-radius: 20px;
+}
+
+footer {
+    background-color: #000;
+    text-align: center;
+    padding: 10px 0;
+    position:relative;
+    bottom: 0;
+    width: 100%;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: #000;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+
+* {box-sizing:border-box}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+  display: none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+  color: cyan;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: left;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.langhtml:hover{
+  opacity : 0.6;
+}
+
+.langjs:hover{
+  opacity : 0.6;
+}
+
+.langpy:hover{
+  opacity : 0.6;
+}
+
+.langc:hover{
+  opacity : 0.6;
+}
+
+.langcplus:hover{
+  opacity : 0.6;
+}
+
+.langtopic {
+  padding-left: 30px;
+  font-size: 35px;
+}
+
+.grid {
+  display:flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.item {
+  border:10px ridge black;
+  margin:1rem;
+  background-color: #292929;
+  border-radius: 15px;
+}
+
+.item p{
+  font-family: cursive;
+  margin-left: 5rem;
+  color: white;
+  font-size: 20px;
+}
+
+.item:hover{
+  opacity: 0.6;
+  cursor :pointer;
+}
+
+.learnpara {
+  font-size: large;
+  padding-right: 30px;
+  font-weight: bold;
+}

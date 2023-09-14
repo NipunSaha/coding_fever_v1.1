@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="shortcut icon" href="./assets/round-logo.png" type="image/png">
+        <title>Python - Coding Fever</title>
+    </head>     
+    <body>
+        <header>
+            <img src="./assets/logo.png" style="width: 95px; height: 95px;">
+            <h1>Coding Fever</h1>
+            <nav>
+                <ul>
+                    <li><a href="./index.html"><b>Home</b></a></li>
+                    <li><a href="./videos.html"><b>Videos</b></a></li>
+                    <li><a href="./learn.html"><b>Learn</b></a></li>
+                    <li><a href="./contact.html"><b>Contact</b></a></li>
+                    <li><a href="./aboutus.html"><b>About Us</b></a></li>
+                    <li><a href="./credits.html"><b>Credits</b></a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="section">
+                <h2 style="padding-left: 590px;">Python</h2>
+            </section>
+        </main>
+        <h3 class="langtopic">Python - File handling</h3>
+        <ul>
+            <p class="learnpara"><b>In this we will mainly learn about file handling, but for more learning in python you can watch videos <a href="./videos.html" style="color: yellow;">here.</b></a></p>
+        </ul>
+        <br>
+        <hr>
+        <h3 class="langtopic">What is Python?</h3>
+        <ul>
+            <p class="learnpara">Python is a popular programming language. It was created by Guido van Rossum, and released in 1991.<br><br>It is used for:</p>
+            <ul class="learnpara">
+                <li>web development (server-side),</li>
+                <li>software development,</li>
+                <li>mathematics,</li>
+                <li>system scripting.</li>
+            </ul>
+        </ul>
+        <br>
+        <hr>
+        <h3 class="langtopic">Downloading python</h3>
+        <ul>
+            <p class="learnpara">You can go to python website or click <a style="color: yellow;" href="https://www.python.org/downloads/">here</a> to download latest version of python.</p>
+            <p class="learnpara">Open that file and accept terms and agreements.</p>
+            <img src="./assets/ref images/py2.PNG" style="border-radius: 15px;" />
+            <p class="learnpara">After downloading it, open python idle shell and follow the instructions below:-</p>
+        </ul>
+        <br>
+        <hr>
+        <h3 class="langtopic">Python Syntax</h3>
+        <ul>
+            <p class="learnpara">We can execute python commands directly in the python idle shell.</p>
+            <img src="./assets/ref images/py1.PNG" style="border-radius: 15px;" />
+            <p class="learnpara">Or by creating a python file on the server, using the .py file extension, and running it in the Command Line:</p>
+            <img src="./assets/ref images/py3.PNG" style="border-radius: 15px;" />
+        </ul>
+        <br>
+        <hr>
+        <h3 class="langtopic">Python Indentation</h3>
+        <ul>
+            <p class="learnpara">Indentation refers to the spaces at the beginning of a code line.</p>
+            <p class="learnpara">Where in other programming languages the indentation in code is for readability only, the indentation in Python is very important.</p>
+            <p class="learnpara">Python uses indentation to indicate a block of code.</p>
+        </ul>
+        <br>
+        <hr>
+        <h3 class="langtopic">Comments</h3>
+        <ul>
+            <p class="learnpara">Comments starts with a #, and Python will ignore them:</p>
+            <p class="learnpara">Example:-</p>
+            <img src="./assets/ref images/py4.PNG" style="border-radius: 15px;" />
+        </ul>
+        <br>
+        <hr>
+        <h3 class="langtopic">Variables</h3>
+        <ul>
+            <p class="learnpara">Variables are containers for storing data values.</p>
+            <p class="learnpara">Python has no command for declaring a variable.</p>
+            <p class="learnpara">A variable is created the moment you first assign a value to it.</p>
+        </ul>
+        <br>
+        <hr>
+        <h3 class="langtopic">File handling</h3>
+        <ul>
+            <p class="learnpara">The key function for working with files in Python is the open() function.</p>
+            <p class="learnpara">The open() function takes two parameters; filename, and mode.</p>
+            <p class="learnpara">There are four different methods (modes) for opening a file:</p>
+            <img src="./assets/ref images/py6.PNG" style="border-radius: 15px;" />
+            <p class="learnpara">In addition you can specify if the file should be handled as binary or text mode</p>
+            <img src="./assets/ref images/py7.PNG" style="border-radius: 15px;" />
+        </ul>
+        <h3 class="langtopic">Syntax</h3>
+        <ul>
+            <p class="learnpara">To open a file for reading it is enough to specify the name of the file:</p>
+            <img src="./assets/ref images/py8.PNG" style="border-radius: 15px;" />
+            <p class="learnpara">The code above is the same as:</p>
+            <img src="./assets/ref images/py9.PNG" style="border-radius: 15px;" />
+        </ul>
+        <br>
+        <hr>
+        <h3 class="langtopic">Open a File on the Server</h3>
+        <ul>
+            <p class="learnpara">Assume we have the following file, located in the same folder as Python:</p>
+            <img src="./assets/ref images/py10.PNG" style="border-radius: 15px;" />
+            <p class="learnpara">To open the file, use the built-in open() function.</p>
+            <p class="learnpara">The open() function returns a file object, which has a read() method for reading the content of the file:</p>
+            <img src="./assets/ref images/pye11.PNG" style="border-radius: 15px;" />
+            <p class="learnpara">If the file is located in a different location, you will have to specify the file path, like this:</p>
+            <img src="./assets/ref images/pye12.PNG" style="border-radius: 15px;" />
+        </ul>
+        <br>
+        <hr>
+        <h3 class="langtopic">Read Only Parts of the File</h3>
+        <ul>
+            <p class="learnpara">By default the read() method returns the whole text, but you can also specify how many characters you want to return:</p>
+            <img src="./assets/ref images/pye13.PNG" style="border-radius: 15px;" />
+        </ul>
+        <br>
+        <hr>
+        <h3 class="langtopic">Close Files:</h3>
+        <ul>
+            <p class="learnpara">It is a good practice to always close the file when you are done with it.</p>
+            <img src="./assets/ref images/pye14.PNG" style="border-radius: 15px;" />
+        </ul>
+        <br>
+        <hr>
+        <h3 class="langtopic">Write to an Existing File</h3>
+        <ul>
+            <p class="learnpara">To write to an existing file, you must add a parameter to the open() function:</p>
+            <p class="learnpara">"a" - Append - will append to the end of the file</p>
+            <p class="learnpara">"w" - Write - will overwrite any existing content</p>
+            <img src="./assets/ref images/py12.PNG" style="border-radius: 15px;" />
+        </ul>
+        <br>
+        <hr>
+        <h3 class="langtopic">Create a New File</h3>
+        <ul>
+            <p class="learnpara">To create a new file in Python, use the open() method, with one of the following parameters:</p>
+            <p class="learnpara">"x" - Create - will create a file, returns an error if the file exist</p>
+            <p class="learnpara">"a" - Append - will create a file if the specified file does not exist</p>
+            <p class="learnpara">"w" - Write - will create a file if the specified file does not exist</p>
+        </ul>
+        <br>
+        <hr>
+        <h3 class="langtopic">Delete a File</h3>
+        <ul>
+            <p class="learnpara">To delete a file, you must import the OS module, and run its os.remove() function:</p>
+            <img src="./assets/ref images/py15.PNG" style="border-radius: 15px;" />
+        </ul>
+        <br>
+        <hr>
+        <h3 class="langtopic">Check if the file exists:</h3>
+        <ul>
+            <p class="learnpara">To avoid getting an error, you might want to check if the file exists before you try to delete it:</p>
+            <img src="./assets/ref images/py15.PNG" style="border-radius: 15px;" />
+        </ul>
+        <br>
+        <hr>
+        <h3 class="langtopic">That's It!</h3>
+        <ul>
+            <p class="learnpara">Thats it for now, but you can still refer to our videos by clicking <a href="./videos.html" style="color:yellow">here.</a></p>
+        </ul>
+    </body>
+</html>

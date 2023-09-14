@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="shortcut icon" href="./assets/round-logo.png" type="image/png">
+        <title>Java - Coding Fever</title>
+    </head>     
+    <body>
+        <header>
+            <img src="./assets/logo.png" style="width: 95px; height: 95px;">
+            <h1>Coding Fever</h1>
+            <nav>
+                <ul>
+                    <li><a href="./index.html"><b>Home</b></a></li>
+                    <li><a href="./videos.html"><b>Videos</b></a></li>
+                    <li><a href="./learn.html"><b>Learn</b></a></li>
+                    <li><a href="./contact.html"><b>Contact</b></a></li>
+                    <li><a href="./aboutus.html"><b>About Us</b></a></li>
+                    <li><a href="./credits.html"><b>Credits</b></a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="section">
+                <h2 style="padding-left: 590px;">Java</h2>
+            </section>
+        </main>
+        <h3 class="learnpara" style="padding-left: 50px;">We are focusing on advanced file handling so we recommend to watch our videos for basic information in java <a href="./videos.html" style="color: yellow;">here.</a></h3>
+        <br>
+        <hr>
+        <h3 class="langtopic">Installing Java</h3>
+        <ul>
+            <p class="learnpara">Some PCs might have Java already installed.</p>
+            <p class="learnpara">To check if you have Java installed on a Windows PC, search in the start bar for Java or type the following in Command Prompt (cmd.exe):</p>
+            <img src="./assets/ref images/j1.PNG" style="border-radius: 15px;" />
+            <p class="learnpara">If Java is installed, you will see something like this (depending on version):</p>
+            <img src="./assets/ref images/j2.PNG" style="border-radius: 15px;" />
+        </ul>
+        <br>
+        <hr>
+        <h3 class="langtopic">Java File Handling</h3>
+        <ul>
+            <p class="learnpara">The File class from the java.io package, allows us to work with files.</p>
+            <p class="learnpara">To use the File class, create an object of the class, and specify the filename or directory name:</p>
+            <img src="./assets/ref images/j3.PNG" style="border-radius: 15px;" />
+            <p class="learnpara">The File class has many useful methods for creating and getting information about files. For example:</p>
+            <img src="./assets/ref images/j4.PNG" style="border-radius: 15px;" />
+        </ul>
+        <br>
+        <hr>
+        <h3 class="langtopic">Create a File</h3>
+        <ul>
+            <p class="learnpara">To create a file in Java, you can use the createNewFile() method. This method returns a boolean value: true if the file was successfully created, and false if the file already exists. Note that the method is enclosed in a try...catch block. This is necessary because it throws an IOException if an error occurs (if the file cannot be created for some reason):</p>
+            <img src="./assets/ref images/j5.PNG" style="border-radius: 15px;" />
+            <p class="learnpara">The output will be:</p>
+            <img src="./assets/ref images/j6.PNG" style="border-radius: 15px;" />
+            <p class="learnpara">To create a file in a specific directory (requires permission), specify the path of the file and use double backslashes to escape the "\" character (for Windows). On Mac and Linux you can just write the path, like: /Users/name/filename.txt</p>
+            <img src="./assets/ref images/j7.PNG" style="border-radius: 15px;" />
+        </ul>
+        <br>
+        <hr>
+        <h3 class="langtopic">Write To a File</h3>
+        <ul>
+            <p class="learnpara">In the following example, we use the FileWriter class together with its write() method to write some text to the file we created in the example above. Note that when you are done writing to the file, you should close it with the close() method:</p>
+            <img src="./assets/ref images/j8.PNG" style="border-radius: 15px;" />
+            <p class="learnpara">The output will be:</p>
+            <img src="./assets/ref images/j10.PNG" style="border-radius: 15px;" />
+        </ul>
+        <br>
+        <hr>
+        <h3 class="langtopic">Read a file</h3>
+        <ul>
+            <p class="learnpara">In the previous chapter, you learned how to create and write to a file.</p>
+            <p class="learnpara">In the following example, we use the Scanner class to read the contents of the text file we created in the previous chapter:</p>
+            <img src="./assets/ref images/j11.PNG" style="border-radius: 15px;" />
+            <p class="learnpara">The output will be:</p>
+            <img src="./assets/ref images/j12.PNG" style="border-radius: 15px;" />
+        </ul>
+        <br>
+        <hr>
+        <h3 class="langtopic">Get File information</h3>
+        <ul>
+            <p class="learnpara">To get more information about a file, use any of the File methods:</p>
+            <img src="./assets/ref images/j13.PNG" style="border-radius: 15px;" />
+            <p class="learnapara">The output will be:</p>
+            <img src="./assets/ref images/j14.PNG" style="border-radius: 15px;" />
+        </ul>
+        <br>
+        <hr>
+        <h3 class="langtopic">Delete a File</h3>
+        <ul>
+            <p class="learnpara">To delete a file in Java, use the delete() method:</p>
+            <img src="./assets/ref images/j15.PNG" style="border-radius: 15px;" />
+            <p class="learnpara">The output will be:</p>
+            <img src="./assets/ref images/j16.PNG" style="border-radius: 15px;" />
+        </ul>
+    </body>
+</html>
